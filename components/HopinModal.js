@@ -13,7 +13,8 @@ const HopinModal = ({ show, title, onClose, children }) => {
     console.log("🚀🚀🚀🚀🚀🚀 ~ handleClose ~");
     onClose();
   };
-  const hopinSrc = 'https://registration.hopin.com/widgets/registration/11_30_test_10_5_2023?widget_id=aCAKiC6FSQhdA63QObpJRk5B5' + window.location.search.replace('?', '&');
+  // const hopinSrc = 'https://registration.hopin.com/widgets/registration/11_30_test_10_5_2023?widget_id=aCAKiC6FSQhdA63QObpJRk5B5' + window.location.search.replace('?', '&');
+  const hopinSrc = 'https://registration.hopin.com/widgets/registration/11_30_test_10_5_2023?widget_id=aCAKiC6FSQhdA63QObpJRk5B5'
 
   const modalContent = show ? (
     <div className="fooclass">
